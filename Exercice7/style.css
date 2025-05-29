@@ -27,9 +27,10 @@ nav ul {
     list-style: none;
     padding: 0;
     display: flex;
+    flex-direction: row;
 }
 
-nav li {
+li {
     margin-right: 20px;
 }
 
@@ -51,3 +52,16 @@ section {
     margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+   h1 {
+    font-size: 20px;
+   }
+   nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   li {
+    margin-right: 0;
+   }
+}

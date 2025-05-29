@@ -4,12 +4,12 @@ header {
 
 main {
     background-color: #E6F2FF;
+    display:flex;
 }
 
 section {
     display: flex;
-    flex: 3 0 1%;
-    align-items: flex-start;
+    flex: 3 1 0%;
 }
 
 section {
