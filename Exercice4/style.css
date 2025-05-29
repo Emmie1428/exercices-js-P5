@@ -4,8 +4,11 @@ header {
 
 main {
     background-color: #E6F2FF;
+}
+
+section {
     display: flex;
-    flex: 3;
+    flex: 3 0 1%;
     align-items: flex-start;
 }
 
@@ -28,7 +31,7 @@ h1 {
     text-align: center;
 }
 
-header, footer {
+aside, header, footer {
     border: 1px solid #CCC;
     box-shadow: 5px 5px 5px rgba(0, 0, 0,.5);
 }
